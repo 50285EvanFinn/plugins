@@ -28,5 +28,6 @@
     "workflow"
   ],
   "skills": "./skills/",
-  "agents": "./agents/"
+  "agents": "./agents/",
+  "_notes": "Forked for personal learning. Using this to audit my own side projects for doc/startup inconsistencies."
 }
