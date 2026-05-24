@@ -29,5 +29,10 @@
   ],
   "skills": "./skills/",
   "agents": "./agents/",
-  "_notes": "Forked for personal learning. Using this to audit my own side projects for doc/startup inconsistencies."
+  "_notes": "Forked for personal learning. Using this to audit my own side projects for doc/startup inconsistencies.",
+  "_personal": {
+    "focus": ["README drift", "missing env vars", "stale setup steps"],
+    "ignore_paths": ["scratch/", "experiments/"],
+    "remind": "Run audit before pushing to main on side projects."
+  }
 }
