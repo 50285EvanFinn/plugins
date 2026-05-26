@@ -88,4 +88,6 @@ If you want to use this plugin directly, symlink this directory into:
 
 > **Personal note:** I also pin a specific version locally instead of using `@latest` to avoid surprise breakages between sessions. For example: `npx -y agent-compatibility@0.4.2 .`
 
-> **Personal note:** I tend to run the scan with `--md` output and pipe it into a file so I can diff scores across sessions — e.g. `npx -y agent-compatibility@0.4.2 --md . > .agent-compat-last-run.md`. Handy for tracking whether changes actually moved the needle.
+> **Personal note:** I tend to run the scan with `--md` output and pipe it into a file so I can diff scores across sessions — e.g. `npx -y agent-compatibility@0.4.2 --md . > .agent-compat-last-run.md`.
+
+> **Personal note:** I add `.agent-compat-last-run.md` to my global `.gitignore` so these local snapshots never accidentally get committed to shared repos.
