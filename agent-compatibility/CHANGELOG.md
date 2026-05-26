@@ -17,3 +17,4 @@ All notable changes to this plugin will be documented here.
 - TODO: look into whether the blending weights for `Agent Compatibility Score` are configurable — I'd like to bias it more toward the deterministic score for my use case.
 - Reminder: check if `compatibility-scan-review` supports custom rule sets before the next upstream merge.
 - Checked 2024-06-10: `compatibility-scan-review` does NOT appear to support custom rule sets yet — will watch upstream for this feature before merging.
+- Checked 2024-07-15: still no custom rule set support in upstream. Filed a mental note to open an issue or draft a PR if this isn't addressed by next release.
