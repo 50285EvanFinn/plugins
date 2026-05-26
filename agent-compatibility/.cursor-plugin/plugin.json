@@ -31,8 +31,9 @@
   "agents": "./agents/",
   "_notes": "Forked for personal learning. Using this to audit my own side projects for doc/startup inconsistencies.",
   "_personal": {
-    "focus": ["README drift", "missing env vars", "stale setup steps"],
-    "ignore_paths": ["scratch/", "experiments/"],
-    "remind": "Run audit before pushing to main on side projects."
+    "focus": ["README drift", "missing env vars", "stale setup steps", "undocumented scripts"],
+    "ignore_paths": ["scratch/", "experiments/", "archive/"],
+    "remind": "Run audit before pushing to main on side projects.",
+    "audit_frequency": "before-push"
   }
 }
